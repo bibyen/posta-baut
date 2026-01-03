@@ -8,6 +8,7 @@ import (
 	"strings"
 
 	"connectrpc.com/connect"
+
 	"github.com/bibyen/posta-baut/cmd/client"
 	msgraph "github.com/bibyen/posta-baut/cmd/config"
 	utils "github.com/bibyen/posta-baut/cmd/svc/utils"
@@ -17,10 +18,6 @@ import (
 	"github.com/bibyen/posta-baut/pkg/messenger"
 	msgr "github.com/bibyen/posta-baut/pkg/messenger"
 	"google.golang.org/grpc/metadata"
-)
-
-const (
-	DummyId = "hello"
 )
 
 const (
