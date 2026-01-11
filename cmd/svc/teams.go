@@ -8,14 +8,14 @@ import (
 	"strings"
 
 	"connectrpc.com/connect"
-	"github.com/bautistv/posta-baut/cmd/client"
-	msgraph "github.com/bautistv/posta-baut/cmd/config"
-	utils "github.com/bautistv/posta-baut/cmd/svc/utils"
-	"github.com/bautistv/posta-baut/internal/credentialprovider"
-	pb "github.com/bautistv/posta-baut/internal/pb/v1"
-	"github.com/bautistv/posta-baut/internal/pb/v1/pbv1connect"
-	"github.com/bautistv/posta-baut/pkg/messenger"
-	msgr "github.com/bautistv/posta-baut/pkg/messenger"
+	"github.com/bibyen/posta-baut/cmd/client"
+	msgraph "github.com/bibyen/posta-baut/cmd/config"
+	utils "github.com/bibyen/posta-baut/cmd/svc/utils"
+	"github.com/bibyen/posta-baut/internal/credentialprovider"
+	pb "github.com/bibyen/posta-baut/internal/pb/v1"
+	"github.com/bibyen/posta-baut/internal/pb/v1/pbv1connect"
+	"github.com/bibyen/posta-baut/pkg/messenger"
+	msgr "github.com/bibyen/posta-baut/pkg/messenger"
 	"google.golang.org/grpc/metadata"
 )
 
