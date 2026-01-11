@@ -4,11 +4,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/bautistv/posta-baut/cmd/client"
-	config "github.com/bautistv/posta-baut/cmd/config"
-	"github.com/bautistv/posta-baut/cmd/svc"
+	"github.com/bibyen/posta-baut/cmd/client"
+	config "github.com/bibyen/posta-baut/cmd/config"
+	"github.com/bibyen/posta-baut/cmd/svc"
 
-	"github.com/bautistv/posta-baut/cmd/server"
+	"github.com/bibyen/posta-baut/cmd/server"
 	yaml "github.com/goccy/go-yaml"
 )
 

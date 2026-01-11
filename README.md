@@ -87,7 +87,7 @@ Use it as a service if:
 
 ## Getting started
 
-**Library mode:** `go get github.com/bautistv/posta-baut` and import `pkg/messenger`
+**Library mode:** `go get github.com/bibyen/posta-baut` and import `pkg/messenger`
 
 **Service mode:** Clone the repo, add your team configs, run the service.
 

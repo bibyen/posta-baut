@@ -3,7 +3,7 @@ package msgraph
 import (
 	"fmt"
 
-	gh "github.com/bautistv/posta-baut/cmd/shared/msgraph/graphhelper"
+	gh "github.com/bibyen/posta-baut/cmd/shared/msgraph/graphhelper"
 	msgraphsdk "github.com/microsoftgraph/msgraph-sdk-go"
 )
 

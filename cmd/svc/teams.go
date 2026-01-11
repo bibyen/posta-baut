@@ -6,11 +6,11 @@ import (
 	"fmt"
 
 	"connectrpc.com/connect"
-	"github.com/bautistv/posta-baut/cmd/client"
-	utils "github.com/bautistv/posta-baut/cmd/svc/utils"
-	pb "github.com/bautistv/posta-baut/internal/pb/v1"
-	"github.com/bautistv/posta-baut/internal/pb/v1/pbv1connect"
-	"github.com/bautistv/posta-baut/pkg/messenger"
+	"github.com/bibyen/posta-baut/cmd/client"
+	utils "github.com/bibyen/posta-baut/cmd/svc/utils"
+	pb "github.com/bibyen/posta-baut/internal/pb/v1"
+	"github.com/bibyen/posta-baut/internal/pb/v1/pbv1connect"
+	"github.com/bibyen/posta-baut/pkg/messenger"
 )
 
 // teamsService implements the TeamsService defined in the protobuf.
@@ -41,7 +41,7 @@ func (s *teamsService) SendMessage(ctx context.Context, req *connect.Request[pb.
 	}
 
 	resp := &pb.SendMessageResponse{
-		MessageId: "success", // TODO: Return idempotent messageid in response https://github.com/bautistv/posta-baut/issues/15
+		MessageId: "success", // TODO: Return idempotent messageid in response https://github.com/bibyen/posta-baut/issues/15
 	}
 	return connect.NewResponse(resp), nil
 }

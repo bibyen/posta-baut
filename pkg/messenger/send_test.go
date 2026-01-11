@@ -3,7 +3,7 @@ package messenger_test
 import (
 	"testing"
 
-	"github.com/bautistv/posta-baut/pkg/messenger"
+	"github.com/bibyen/posta-baut/pkg/messenger"
 )
 
 const (

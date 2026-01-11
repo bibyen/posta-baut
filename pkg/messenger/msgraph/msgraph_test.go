@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	config "github.com/bautistv/posta-baut/cmd/config"
+	config "github.com/bibyen/posta-baut/cmd/config"
 )
 
 func TestGraphMessenger_SendChannelMessage(t *testing.T) {
