@@ -4,8 +4,8 @@ package utils
 import (
 	"fmt"
 
-	pbv1 "github.com/bautistv/posta-baut/internal/pb/v1"
-	"github.com/bautistv/posta-baut/pkg/messenger"
+	pbv1 "github.com/bibyen/posta-baut/internal/pb/v1"
+	"github.com/bibyen/posta-baut/pkg/messenger"
 )
 
 // ReqToMsg converts the protobuf SendMessageRequest into the domain SendMessageRequest.

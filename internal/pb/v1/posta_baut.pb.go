@@ -336,7 +336,7 @@ const file_v1_posta_baut_proto_rawDesc = "" +
 	"\n" +
 	"message_id\x18\x01 \x01(\tB\x03\xe0A\x02R\tmessageId2N\n" +
 	"\fTeamsService\x12>\n" +
-	"\vSendMessage\x12\x16.pb.SendMessageRequest\x1a\x17.pb.SendMessageResponseB4Z2github.com/bautistv/posta-baut/internal/pb/v1;pbv1b\x06proto3"
+	"\vSendMessage\x12\x16.pb.SendMessageRequest\x1a\x17.pb.SendMessageResponseB2Z0github.com/bibyen/posta-baut/internal/pb/v1;pbv1b\x06proto3"
 
 var (
 	file_v1_posta_baut_proto_rawDescOnce sync.Once

@@ -3,7 +3,7 @@ package client
 import (
 	"testing"
 
-	config "github.com/bautistv/posta-baut/cmd/config"
+	config "github.com/bibyen/posta-baut/cmd/config"
 	"github.com/stretchr/testify/require"
 )
 

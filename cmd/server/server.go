@@ -13,8 +13,8 @@ import (
 
 	"connectrpc.com/grpchealth"
 	"connectrpc.com/grpcreflect"
-	"github.com/bautistv/posta-baut/internal/pb/v1/pbv1connect"
-	pbconnect "github.com/bautistv/posta-baut/internal/pb/v1/pbv1connect"
+	"github.com/bibyen/posta-baut/internal/pb/v1/pbv1connect"
+	pbconnect "github.com/bibyen/posta-baut/internal/pb/v1/pbv1connect"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 )

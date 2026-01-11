@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"connectrpc.com/connect"
-	"github.com/bautistv/posta-baut/cmd/client"
-	pbv1 "github.com/bautistv/posta-baut/internal/pb/v1"
-	mocks "github.com/bautistv/posta-baut/pkg/messenger/mocks"
+	"github.com/bibyen/posta-baut/cmd/client"
+	pbv1 "github.com/bibyen/posta-baut/internal/pb/v1"
+	mocks "github.com/bibyen/posta-baut/pkg/messenger/mocks"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 	"google.golang.org/protobuf/proto"
@@ -104,7 +104,7 @@ func Test_teamsService_SendMessage_Success(t *testing.T) {
 		})
 
 		want := &pbv1.SendMessageResponse{
-			MessageId: "success", // TODO: Return idempotent messageid in response https://github.com/bautistv/posta-baut/issues/15
+			MessageId: "success", // TODO: Return idempotent messageid in response https://github.com/bibyen/posta-baut/issues/15
 		}
 
 		got, err := teamService.SendMessage(context.Background(), validReq)

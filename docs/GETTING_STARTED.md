@@ -14,7 +14,7 @@
 1. Clone the repo
 
 ```bash
-git clone https://github.com/bautistv/posta-baut.git
+git clone https://github.com/bibyen/posta-baut.git
 cd posta-baut
 ```
 

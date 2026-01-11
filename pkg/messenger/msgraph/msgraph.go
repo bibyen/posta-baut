@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	config "github.com/bautistv/posta-baut/cmd/config"
-	msgraph "github.com/bautistv/posta-baut/cmd/shared/msgraph"
+	config "github.com/bibyen/posta-baut/cmd/config"
+	msgraph "github.com/bibyen/posta-baut/cmd/shared/msgraph"
 	msgraphsdk "github.com/microsoftgraph/msgraph-sdk-go"
 	graphmodels "github.com/microsoftgraph/msgraph-sdk-go/models"
 )

@@ -3,9 +3,9 @@ package client
 import (
 	"fmt"
 
-	config "github.com/bautistv/posta-baut/cmd/config"
-	lookup "github.com/bautistv/posta-baut/cmd/shared/lookup"
-	msgraph "github.com/bautistv/posta-baut/pkg/messenger/msgraph"
+	config "github.com/bibyen/posta-baut/cmd/config"
+	lookup "github.com/bibyen/posta-baut/cmd/shared/lookup"
+	msgraph "github.com/bibyen/posta-baut/pkg/messenger/msgraph"
 )
 
 // NewClient creates a new Client with the provided Messenger and LookupClient configurations.
