@@ -1,4 +1,4 @@
-module github.com/bautistv/posta-baut
+module github.com/bibyen/posta-baut
 
 go 1.24.2
 
