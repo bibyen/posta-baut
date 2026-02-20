@@ -1,7 +1,7 @@
 package messenger
 
 import (
-	config "github.com/bautistv/posta-baut/cmd/config"
+	config "github.com/bibyen/posta-baut/cmd/config"
 )
 
 type MessengerType string

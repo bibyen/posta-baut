@@ -23,6 +23,10 @@ const (
 	DummyId = "hello"
 )
 
+const (
+	DummyId = "hello"
+)
+
 // teamsService implements the TeamsService defined in the protobuf.
 type teamsService struct {
 	pbv1connect.UnimplementedTeamsServiceHandler

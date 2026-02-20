@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bautistv/posta-baut/pkg/messenger"
+	"github.com/bibyen/posta-baut/pkg/messenger"
 )
 
 type InMemoryCredentialProvider struct {
