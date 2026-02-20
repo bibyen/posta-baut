@@ -47,7 +47,12 @@ func sendToChat(ctx context.Context, m Messenger, msg SendMessageRequest) error 
 	}
 }
 
-func Send(ctx context.Context, m Messenger, msg SendMessageRequest) error {
+func Send(ctx context.Context, mCfg MessengerConfig, msg SendMessageRequest) error {
+	m, err := NewMessenger(mCfg)
+	if err != nil {
+		return fmt.Errorf("error creating messenger: %w", err)
+	}
+
 	switch {
 	case msg.Target.Channel != nil:
 		return sendToChannel(ctx, m, msg)

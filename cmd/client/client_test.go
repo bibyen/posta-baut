@@ -51,8 +51,8 @@ func TestNewClient(t *testing.T) {
 					ClientID: validClientID,
 				},
 				lookupClientConfig: config.ClientConfig{
-					TenantID: validTenantID,
-					ClientID: validClientID,
+					TenantID:     validTenantID,
+					ClientID:     validClientID,
 					ClientSecret: validClientSecret,
 				},
 			},
@@ -63,8 +63,8 @@ func TestNewClient(t *testing.T) {
 			name: "invalid lookup client config",
 			args: args{
 				messengerConfig: config.ClientConfig{
-					TenantID: validTenantID,
-					ClientID: validClientID,
+					TenantID:     validTenantID,
+					ClientID:     validClientID,
 					ClientSecret: validClientSecret,
 				},
 				lookupClientConfig: config.ClientConfig{
