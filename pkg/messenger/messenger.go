@@ -5,7 +5,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bautistv/posta-baut/pkg/messenger/msgraph"
+	"github.com/bibyen/posta-baut/pkg/messenger/msgraph"
 )
 
 // Messenger defines methods for sending messages to chats and channels.
